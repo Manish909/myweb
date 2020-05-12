@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us</title>
+    <style>
+        body {
+        color: aqua;
+        margin: 0px;
+        padding: 0px;
+        }
+        .container{
+            text-align: center;
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            color: aqua;
+            padding: 1px;
+            margin: 11px auto;
+            border:2px solid red;
+            background-color: yellowgreen;
+            width: 33%;
+             border-radius: 28px;
+    }
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+        .btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+       <form action="/" method="post" id="contact">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="age" id="age" placeholder="Enter your age">
+            <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+            <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your address"></textarea>
+            <textarea name="more" id="more" cols="30" rows="10" placeholder="More about you.."></textarea>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
